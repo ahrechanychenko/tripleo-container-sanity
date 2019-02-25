@@ -4,4 +4,5 @@ virtualenv:
   system_site_packages: true
 
 script:
-  - pytest container_sanity.py
+  - ls -la
+  - py.test container_sanity.py
